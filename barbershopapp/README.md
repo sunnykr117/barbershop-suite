@@ -1,16 +1,19 @@
-# barbershopapp
+## 🔑 Firebase Configuration
 
-A new Flutter project.
+This project uses Firebase for authentication and database features.  
+The actual Firebase configuration files are **not included** in the repository for security reasons.
 
-## Getting Started
+Before running the app, create these files manually:
 
-This project is a starting point for a Flutter application.
+### For barberadminpanel:
+- `barberadminpanel/android/app/google-services.json`
+- `barberadminpanel/ios/Runner/GoogleService-Info.plist`
 
-A few resources to get you started if this is your first Flutter project:
+### For barbershopapp:
+- `barbershopapp/android/app/google-services.json`
+- `barbershopapp/ios/Runner/GoogleService-Info.plist`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Use the Firebase Console to generate these files.  
+You can follow the structure shown in the provided example files:
+- `google-services.example.json`
+- `GoogleService-Info.example.plist`
