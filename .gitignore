@@ -1,0 +1,18 @@
+# Flutter build
+**/build/
+**/.dart_tool/
+
+# Firebase keys
+**/android/app/google-services.json
+**/ios/Runner/GoogleService-Info.plist
+
+# Env files
+**/*.env
+
+# Firebase Keys
+barberadminpanel/android/app/google-services.json
+barberadminpanel/ios/Runner/GoogleService-Info.plist
+
+barbershopapp/android/app/google-services.json
+barbershopapp/ios/Runner/GoogleService-Info.plist
+.DS_Store
