@@ -1,4 +1,4 @@
-## 🔑 Firebase Configuration
+## Firebase Configuration
 
 This project uses Firebase for authentication and database features.  
 The actual Firebase configuration files are **not included** in the repository for security reasons.
